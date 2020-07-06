@@ -13,9 +13,6 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -25,7 +22,7 @@
 <header id="header" class="fixed-top  header-transparent ">
     <div class="container d-flex align-items-center">
         <div class="logo">
-            <a href="index.html"><img src="assets/img/logo.png" alt="ZZABBAT" class="img-fluid"></a>
+            <a href="index.html"><img src="assets/img/logo.png" width="80px" alt="ZZABBAT" class="img-fluid"></a>
         </div>
         <nav class="nav-menu">
             <ul class="nav">
@@ -36,9 +33,11 @@
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
-        <a class="btn btn-primary ml-auto p-2" href="#features"
-           style="border-radius: 50px"
-        >SIGN IN</a>
+        <div class="ml-auto">
+            <i class='bx bx-globe'></i> English
+            <a class="btn btn-primary" id="signin" href="#features"
+            >Sign in</a>
+        </div>
     </div>
 </header><!-- End Header -->
 
@@ -46,18 +45,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1"
+            <div class="col-lg-8 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1"
                  data-aos="fade-up">
                 <div>
-                    <h3 style="color: white;font-weight: bold">Unleashed your growth potential</h3>
-                    <h6 style="color: white">Stop recording transactions manually</h6>
-                    <h6 style="color: white">Zzabbat is the best software to run a company</h6>
+                    <h2 style="color: white;font-weight: bold; font-size: 38px">Unleashed your growth potential</h2>
+                    <h5 style="color: white">Stop recording transactions manually</h5>
+                    <h5 style="color: white">Zzabbat is the best software to run a company</h5>
                 </div>
             </div>
-            <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img"
+            <div class="col-md-4  flex-md-column align-items-stretch order-1 order-md-2 hero-img"
                  data-aos="fade-up">
                 <div class="card">
-                    <div class="card-header">sign up for free</div>
+                    <div class="card-header" style="text-align: center">Sign up for free</div>
                     <div class="card-body">
                         <div class="form-group">
                             <input class="form-control" placeholder="Full Name"/>
@@ -66,17 +65,24 @@
                             <input class="form-control" placeholder="Enter email"/>
                         </div>
                         <div class="form-group ">
-                            <button class="btn btn-primary form-control">SIGN UP</button>
+                            <button class="btn btn-primary form-control">Sign up</button>
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button class="loginBtn loginBtn--facebook">
-                            Login with Facebook
-                        </button>
-
-                        <button class="loginBtn loginBtn--google">
-                            Login with Google
-                        </button>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <a class="btn btn-lg loginBtn--facebook" style="color: #FFFFFF;font-size: 10px">
+                                    <i class='bx bxl-facebook' style="padding: 1px 1px 1px 1px"></i>
+                                    Continue with facebook
+                                </a>
+                            </div>
+                            <div class="col-md-5">
+                                <a class="btn btn-lg loginBtn--google" style="color: #FFFFFF;font-size: 10px">
+                                    <i class='bx bxl-google' style="padding: 1px 1px 1px 1px"></i>
+                                    Continue with google
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,151 +96,89 @@
     <section id="overview" class="gallery">
         <div class="container">
 
-            <div class="section-title">
-                <h2>Gallery</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
+            <div class="row no-gutters">
+                <div class="image col-xl-4 d-flex align-items-stretch justify-content-center flex-column order-1 order-lg-2"
+                     data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/img/feature3.png" class="img-fluid" alt="">
+                    <p class="pt-2"> Gain instant insights. Track your business performance on your dashboard </p>
 
-            <div class="owl-carousel gallery-carousel" data-aos="fade-up">
-                <a href="assets/img/gallery/gallery-1.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-1.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-2.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-2.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-3.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-3.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-4.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-4.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-5.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-5.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-6.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-6.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-7.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-7.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-8.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-8.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-9.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-9.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-10.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-10.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-11.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-11.png" alt=""></a>
-                <a href="assets/img/gallery/gallery-12.png" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/gallery-12.png" alt=""></a>
+                </div>
+                <div class="image col-xl-4 d-flex align-items-stretch justify-content-center flex-column order-1 order-lg-2"
+                     data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/img/feature2.png" class="img-fluid" alt="">
+                    <p class="pt-2"> Customize your invoices. send professional invoices that reflect your brand</p>
+                </div>
+                <div class="image col-xl-4 d-flex align-items-stretch justify-content-center flex-column order-1 order-lg-2"
+                     data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/img/feature1.png" class="img-fluid" alt="">
+                    <p class="pt-2">Track Expenses and bills. Keep track of the money going out of your business</p>
+
+                </div>
+
             </div>
 
         </div>
-    </section><!-- End Gallery Section -->
+    </section>
 
-    <!-- ======= App Features Section ======= -->
+
     <section id="features" class="features">
         <div class="container">
 
             <div class="section-title">
-                <h2>App Features</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Popular features that will change your life</h2>
+                <p>All the time-saving tools you need to grow your business</p>
+            </div>
+            <div class="image col-xl-12"
+                 data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/feature.png" class="img-fluid" alt="">
             </div>
 
-            <div class="row no-gutters">
-                <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
-                    <div class="content d-flex flex-column justify-content-center">
-                        <div class="row">
-                            <div class="col-md-6 icon-box" data-aos="fade-up">
-                                <i class="bx bx-receipt"></i>
-                                <h4>Corporis voluptates sit</h4>
-                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-                                    aliquip</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <i class="bx bx-cube-alt"></i>
-                                <h4>Ullamco laboris nisi</h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                                <i class="bx bx-images"></i>
-                                <h4>Labore consequatur</h4>
-                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                                <i class="bx bx-shield"></i>
-                                <h4>Beatae veritatis</h4>
-                                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                                <i class="bx bx-atom"></i>
-                                <h4>Molestiae dolor</h4>
-                                <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                                <i class="bx bx-id-card"></i>
-                                <h4>Explicabo consectetur</h4>
-                                <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2"
-                     data-aos="fade-left" data-aos-delay="100">
-                    <img src="assets/img/features.svg" class="img-fluid" alt="">
-                </div>
-            </div>
 
         </div>
-    </section><!-- End App Features Section -->
+    </section><!-- End Gallery Section -->
+
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
         <div class="container">
-
+            <div class="card">
+                <div class="card-body" style="background-color: #009EDB">
+                    <div class="row offset-1">
+                        <div class="col-md-9">
+                            <h3 style="color: #FFFFFF">Get Started For Free Today</h3>
+                            <p style="color: #FFFFFF">Try it for free 30 days trial</p>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-success">Try Free Trial</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section-title">
-                <h2>Pricing</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Simple, Predictable Pricing</h2>
+                <p>Always know what you will pay with monthly caps and flat pricing across all data centers</p>
             </div>
 
             <div class="row no-gutters">
 
                 <div class="col-lg-4 box" data-aos="fade-right">
-                    <h3>Free</h3>
-                    <h4>$0<span>per month</span></h4>
-                    <ul>
-                        <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                    </ul>
+                    <h3>Lite</h3>
+                    <h4>$6<span>per month</span></h4>
+                    <p>for the self-employed pro that's on the go</p>
                     <a href="#" class="get-started-btn">Get Started</a>
                 </div>
 
                 <div class="col-lg-4 box featured" data-aos="fade-up">
-                    <h3>Business</h3>
-                    <h4>$29<span>per month</span></h4>
-                    <ul>
-                        <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                        <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                        <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                    </ul>
+                    <h3>Plus</h3>
+                    <h4>$10<span>per month</span></h4>
+                    <p>For small businesses with big goals</p>
                     <a href="#" class="get-started-btn">Get Started</a>
                 </div>
 
                 <div class="col-lg-4 box" data-aos="fade-left">
-                    <h3>Developer</h3>
-                    <h4>$49<span>per month</span></h4>
-                    <ul>
-                        <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                        <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                        <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                    </ul>
+                    <h3>Premium</h3>
+                    <h4>$20<span>per month</span></h4>
+                    <p>for growing businesses with dynamic teams</p>
                     <a href="#" class="get-started-btn">Get Started</a>
                 </div>
 
@@ -248,40 +192,27 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>Contact</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Leave Message</h2>
+                <p>Don't be shy, Drop us email and say hello! We are really nice bunch of people</p>
             </div>
-
-            <div class="row">
-
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-6 info" data-aos="fade-up">
-                            <i class="bx bx-map"></i>
-                            <h4>Address</h4>
-                            <p>A108 Adam Street,<br>New York, NY 535022</p>
+            <div class="row col-md-12">
+                <div class="col-md-6">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row align-content-center" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-envelope bx-updated" style="color: #009EDB"></i>
+                            <p class="p-3">customersupport@zzabbat.com</p>
                         </div>
-                        <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-phone"></i>
-                            <h4>Call Us</h4>
-                            <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                        <div class="d-flex flex-row align-content-center">
+                            <i class="bx bx-map bx-updated" style="color: #009EDB"></i>
+                            <p class="p-3">A108 Adam Street, New York, NY 535022</p>
                         </div>
-                        <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-envelope"></i>
-                            <h4>Email Us</h4>
-                            <p>contact@example.com<br>info@example.com</p>
-                        </div>
-                        <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-time-five"></i>
-                            <h4>Working Hours</h4>
-                            <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                        <div class="d-flex flex-row align-content-center" data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-phone bx-updated" style="color: #009EDB"></i>
+                            <p class="p-3">+1 5589 55488 55</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form"
                           data-aos="fade-up">
                         <div class="form-group">
@@ -290,13 +221,9 @@
                             <div class="validate"></div>
                         </div>
                         <div class="form-group">
-                            <input placeholder="Your Email" type="email" class="form-control" name="email" id="email"
+                            <input placeholder="Your Email" type="email" class="form-control" name="email"
+                                   id="email"
                                    data-rule="email" data-msg="Please enter a valid email"/>
-                            <div class="validate"></div>
-                        </div>
-                        <div class="form-group">
-                            <input placeholder="Subject" type="text" class="form-control" name="subject" id="subject"
-                                   data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/>
                             <div class="validate"></div>
                         </div>
                         <div class="form-group">
@@ -310,14 +237,14 @@
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
                         <div class="text-center">
-                            <button type="submit">Send Message</button>
+                            <button class="btn btn-block btn-primary" type="button">Send Message</button>
                         </div>
                     </form>
                 </div>
-
             </div>
 
         </div>
+
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
